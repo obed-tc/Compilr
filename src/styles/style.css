@@ -1,0 +1,21 @@
+.hero:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 528px;
+  background: radial-gradient(circle, #9201ad, #020024 75%);
+  opacity: 0.2;
+  z-index: 10;
+}
+
+.hero:before {
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 528px;
+  background: linear-gradient(to top, #0000 60%, #000c),
+    linear-gradient(to bottom, #0000 60%, #000c), url("CircuitoGuardar.svg");
+  opacity: 0.2;
+  z-index: 20;
+}
