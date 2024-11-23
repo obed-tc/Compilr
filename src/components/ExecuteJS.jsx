@@ -60,7 +60,7 @@ const ExecuteJS = () => {
         </div>
 
         <Editor
-          className="h-[40vh] md:h-[65vh]"
+          className="h-[40vh] md:h-[65vh] "
           defaultLanguage="javascript"
           defaultValue={code}
           theme="vs-dark"

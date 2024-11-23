@@ -15,7 +15,8 @@
   width: 100vw;
   height: 528px;
   background: linear-gradient(to top, #0000 60%, #000c),
-    linear-gradient(to bottom, #0000 60%, #000c), url("CircuitoGuardar.svg");
+    linear-gradient(to bottom, #0000 60%, #000c),
+    url("../assets/CircuitoGuardar.svg");
   opacity: 0.2;
   z-index: 20;
 }
